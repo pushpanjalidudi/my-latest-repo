@@ -1,1 +1,5 @@
-
+FROM ngnix
+EXPOSE 80
+MAINTAINER Pushpa
+LABEL this is my first docker file in git hub
+copy index.html /usr/share/nginx/html
